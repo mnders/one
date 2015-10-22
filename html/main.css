@@ -1,0 +1,67 @@
+html, body, h1, h2, h3, h4, a, p, ol, ul, li {
+      padding: 0;
+      border: 0;
+      margin: 0;
+    }
+    body {
+      padding: 20px 20px 20px 20px;
+    }
+    h1 {
+      padding: 0px 0px 25px 400px;
+      margin: 10px 0px 15px 0px;
+      font-size: 50px;
+      font-family: "Magneto";
+      margin: auto;
+    }
+    p {
+      color: dimgray;
+      }
+    h2 {
+      padding-top: 20px;
+      margin: 10px 0px 20px 0px;
+      font-size: 28px;
+      color: #006666;
+      border-bottom: 1px solid black;
+      }
+    a {
+      text-decoration: none;
+      color: #000000;
+      }
+    h3 {
+      margin: 15px 0 15px 0;
+      font-size: 20px;
+    }
+    h4 {
+      margin: 10px 0 10px 0;
+    }
+    ol {
+      padding-left: 20px;
+    }
+    .nav li {
+      display: inline;
+      padding: 0px 25px 0px 25px;
+    }
+    a:hover {
+      color: #006666;
+    }
+    .about {
+      border-bottom: 1px solid black;
+    }
+    .bands {
+      border-bottom: 1px solid black;
+    }
+    .prependers-regexpressionists {
+      padding-left: 20px;
+    }
+    .contactusnow {
+      padding: 30px 0 0 0;
+    }
+    .contact {
+      border-bottom: 1px solid black;
+    }
+    .prependers-band {
+      padding-left: 15px;
+    }
+    .reg-band {
+      padding-left: 15px;
+    }
