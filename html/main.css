@@ -4,24 +4,38 @@ html, body, h1, h2, h3, h4, a, p, ol, ul, li {
       margin: 0;
     }
     body {
+      padding: 0;
+    }
+    .header {
       padding: 20px 20px 20px 20px;
+      background-color: #47476B;
+      color: #ffffff;
+      margin: 0 auto 0 auto;
+      text-align: center;
+    }
+    .header a {
+      color: #ffffff;
+    }
+    .main-content {
+      padding: 20px 20px 20px 20px;
+      width: 650px;
+      margin: 0 auto 0 auto;
     }
     h1 {
-      padding: 0px 0px 25px 400px;
       margin: 10px 0px 15px 0px;
       font-size: 50px;
       font-family: "Magneto";
-      margin: auto;
     }
     p {
       color: dimgray;
       }
     h2 {
-      padding-top: 20px;
+      padding: 20px 0 5px 0;
       margin: 10px 0px 20px 0px;
       font-size: 28px;
       color: #006666;
       border-bottom: 1px solid black;
+      text-align: center;
       }
     a {
       text-decoration: none;
@@ -59,9 +73,18 @@ html, body, h1, h2, h3, h4, a, p, ol, ul, li {
     .contact {
       border-bottom: 1px solid black;
     }
+    .contact-number {
+      text-align: center;
+    }
     .prependers-band {
       padding-left: 15px;
     }
     .reg-band {
       padding-left: 15px;
+    }
+    .prependers-bio {
+      text-align: center;
+    }
+    .regband-bio {
+      text-align: center;
     }
