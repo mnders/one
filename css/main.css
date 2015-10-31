@@ -5,6 +5,12 @@ html, body, h1, h2, h3, h4, a, p, ol, ul, li {
     }
     body {
       padding: 0;
+      background: #C3C3CF
+    }
+
+    html, body, h1, h2, h3, p, ol, ul, li {
+      font-size: 100%;
+      font: inherit;
     }
     .header {
       padding: 20px 20px 20px 20px;
@@ -15,11 +21,14 @@ html, body, h1, h2, h3, h4, a, p, ol, ul, li {
     }
     .header a {
       color: #ffffff;
+      font: inherit;
+      font-size: 100%;
     }
     .main-content {
       padding: 20px 20px 20px 20px;
       width: 650px;
       margin: 0 auto 0 auto;
+      background: #C3C3CF url(../images/background.jpg);
     }
     h1 {
       margin: 10px 0px 15px 0px;
@@ -88,6 +97,7 @@ html, body, h1, h2, h3, h4, a, p, ol, ul, li {
     }
     .prependers-bio {
       text-align: center;
+      line-height: 20px;
     }
     .regband-bio {
       text-align: center;
